@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ConsultancyModelStoreContainer" CdmEntityContainer="ConsultancyEntities">
+    <EntitySetMapping Name="consultancy_account">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_account">
+        <MappingFragment StoreEntitySet="consultancy_account">
+          <ScalarProperty Name="account_id" ColumnName="account_id" />
+          <ScalarProperty Name="agent_id" ColumnName="agent_id" />
+          <ScalarProperty Name="candidate_id" ColumnName="candidate_id" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="due_amount" ColumnName="due_amount" />
+          <ScalarProperty Name="total_amount" ColumnName="total_amount" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_add_company">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_add_company">
+        <MappingFragment StoreEntitySet="consultancy_add_company">
+          <ScalarProperty Name="add_company_id" ColumnName="add_company_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id_number" ColumnName="id_number" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_agent">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_agent">
+        <MappingFragment StoreEntitySet="consultancy_agent">
+          <ScalarProperty Name="agent_id" ColumnName="agent_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="phone1" ColumnName="phone1" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_candidate">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_candidate">
+        <MappingFragment StoreEntitySet="consultancy_candidate">
+          <ScalarProperty Name="candidate_id" ColumnName="candidate_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="passport_no" ColumnName="passport_no" />
+          <ScalarProperty Name="passport_issued_date" ColumnName="passport_issued_date" />
+          <ScalarProperty Name="passport_expiry_date" ColumnName="passport_expiry_date" />
+          <ScalarProperty Name="issued_place" ColumnName="issued_place" />
+          <ScalarProperty Name="bearer_name" ColumnName="bearer_name" />
+          <ScalarProperty Name="image_name" ColumnName="image_name" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="guardain_name" ColumnName="guardain_name" />
+          <ScalarProperty Name="marital_status" ColumnName="marital_status" />
+          <ScalarProperty Name="religion" ColumnName="religion" />
+          <ScalarProperty Name="agent_id" ColumnName="agent_id" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="applied_country" ColumnName="applied_country" />
+          <ScalarProperty Name="profession" ColumnName="profession" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="duty_hour" ColumnName="duty_hour" />
+          <ScalarProperty Name="company_name" ColumnName="company_name" />
+          <ScalarProperty Name="educational_background" ColumnName="educational_background" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_candidate_category">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_candidate_category">
+        <MappingFragment StoreEntitySet="consultancy_candidate_category">
+          <ScalarProperty Name="ccat_id" ColumnName="ccat_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_company">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_company">
+        <MappingFragment StoreEntitySet="consultancy_company">
+          <ScalarProperty Name="company_id" ColumnName="company_id" />
+          <ScalarProperty Name="visa_group" ColumnName="visa_group" />
+          <ScalarProperty Name="add_company_id" ColumnName="add_company_id" />
+          <ScalarProperty Name="id_number" ColumnName="id_number" />
+          <ScalarProperty Name="visa_number" ColumnName="visa_number" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="ccat_id" ColumnName="ccat_id" />
+          <ScalarProperty Name="number" ColumnName="number" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_district">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_district">
+        <MappingFragment StoreEntitySet="consultancy_district">
+          <ScalarProperty Name="district_id" ColumnName="district_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_interview">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_interview">
+        <MappingFragment StoreEntitySet="consultancy_interview">
+          <ScalarProperty Name="interview_id" ColumnName="interview_id" />
+          <ScalarProperty Name="candidate_id" ColumnName="candidate_id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_medical">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_medical">
+        <MappingFragment StoreEntitySet="consultancy_medical">
+          <ScalarProperty Name="medical_id" ColumnName="medical_id" />
+          <ScalarProperty Name="candidate_id" ColumnName="candidate_id" />
+          <ScalarProperty Name="mofa_no" ColumnName="mofa_no" />
+          <ScalarProperty Name="gamca_no" ColumnName="gamca_no" />
+          <ScalarProperty Name="medical_center" ColumnName="medical_center" />
+          <ScalarProperty Name="add_company_id" ColumnName="add_company_id" />
+          <ScalarProperty Name="id_number" ColumnName="id_number" />
+          <ScalarProperty Name="visa_no" ColumnName="visa_no" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_medical_center">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_medical_center">
+        <MappingFragment StoreEntitySet="consultancy_medical_center">
+          <ScalarProperty Name="medical_center_id" ColumnName="medical_center_id" />
+          <ScalarProperty Name="medical_center_name" ColumnName="medical_center_name" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_medical_test">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_medical_test">
+        <MappingFragment StoreEntitySet="consultancy_medical_test">
+          <ScalarProperty Name="medical_test_id" ColumnName="medical_test_id" />
+          <ScalarProperty Name="candidate_id" ColumnName="candidate_id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_orientation">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_orientation">
+        <MappingFragment StoreEntitySet="consultancy_orientation">
+          <ScalarProperty Name="orientation_id" ColumnName="orientation_id" />
+          <ScalarProperty Name="candidate_id" ColumnName="candidate_id" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="paid" ColumnName="paid" />
+          <ScalarProperty Name="orientation_company" ColumnName="orientation_company" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_salary">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_salary">
+        <MappingFragment StoreEntitySet="consultancy_salary">
+          <ScalarProperty Name="salary_id" ColumnName="salary_id" />
+          <ScalarProperty Name="staff_id" ColumnName="staff_id" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="issued_month" ColumnName="issued_month" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_shram_test">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_shram_test">
+        <MappingFragment StoreEntitySet="consultancy_shram_test">
+          <ScalarProperty Name="shram_test_id" ColumnName="shram_test_id" />
+          <ScalarProperty Name="candidate_id" ColumnName="candidate_id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="orientation_status" ColumnName="orientation_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_staff">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_staff">
+        <MappingFragment StoreEntitySet="consultancy_staff">
+          <ScalarProperty Name="staff_id" ColumnName="staff_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="post" ColumnName="post" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_stamping">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_stamping">
+        <MappingFragment StoreEntitySet="consultancy_stamping">
+          <ScalarProperty Name="stamping_id" ColumnName="stamping_id" />
+          <ScalarProperty Name="candidate_id" ColumnName="candidate_id" />
+          <ScalarProperty Name="entered_date" ColumnName="entered_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+          <ScalarProperty Name="del" ColumnName="del" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consultancy_ticketing">
+      <EntityTypeMapping TypeName="ConsultancyModel.consultancy_ticketing">
+        <MappingFragment StoreEntitySet="consultancy_ticketing">
+          <ScalarProperty Name="ticketing_id" ColumnName="ticketing_id" />
+          <ScalarProperty Name="candidate_id" ColumnName="candidate_id" />
+          <ScalarProperty Name="arrival_date" ColumnName="arrival_date" />
+          <ScalarProperty Name="departure_date" ColumnName="departure_date" />
+          <ScalarProperty Name="air_lines" ColumnName="air_lines" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

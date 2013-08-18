@@ -1,0 +1,11 @@
+F:\projects\Consultancy\DestinyPlacements\SAL\bin\Debug\SAL.dll
+F:\projects\Consultancy\DestinyPlacements\SAL\bin\Debug\SAL.pdb
+F:\projects\Consultancy\DestinyPlacements\SAL\obj\Debug\SAL.csprojResolveAssemblyReference.cache
+F:\projects\Consultancy\DestinyPlacements\SAL\obj\Debug\SAL.dll
+F:\projects\Consultancy\DestinyPlacements\SAL\obj\Debug\SAL.pdb
+F:\projects\Consultancy\DestinyPlacements\SAL\bin\Debug\DAL.dll
+F:\projects\Consultancy\DestinyPlacements\SAL\bin\Debug\HelperClass.dll
+F:\projects\Consultancy\DestinyPlacements\SAL\bin\Debug\EntityFramework.dll
+F:\projects\Consultancy\DestinyPlacements\SAL\bin\Debug\DAL.pdb
+F:\projects\Consultancy\DestinyPlacements\SAL\bin\Debug\HelperClass.pdb
+F:\projects\Consultancy\DestinyPlacements\SAL\bin\Debug\EntityFramework.xml
