@@ -1,0 +1,8 @@
+F:\projects\Consultancy\DestinyPlacements\DAL\bin\Debug\DAL.dll
+F:\projects\Consultancy\DestinyPlacements\DAL\bin\Debug\DAL.pdb
+F:\projects\Consultancy\DestinyPlacements\DAL\obj\Debug\DAL.dll
+F:\projects\Consultancy\DestinyPlacements\DAL\obj\Debug\DAL.pdb
+F:\projects\Consultancy\DestinyPlacements\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\projects\Consultancy\DestinyPlacements\DAL\bin\Debug\DAL.dll.config
+F:\projects\Consultancy\DestinyPlacements\DAL\bin\Debug\EntityFramework.dll
+F:\projects\Consultancy\DestinyPlacements\DAL\bin\Debug\EntityFramework.xml
