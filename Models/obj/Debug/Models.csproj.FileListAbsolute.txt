@@ -1,4 +1,0 @@
-F:\projects\Consultancy\DestinyPlacements\Models\bin\Debug\Models.dll
-F:\projects\Consultancy\DestinyPlacements\Models\bin\Debug\Models.pdb
-F:\projects\Consultancy\DestinyPlacements\Models\obj\Debug\Models.dll
-F:\projects\Consultancy\DestinyPlacements\Models\obj\Debug\Models.pdb

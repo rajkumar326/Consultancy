@@ -1,4 +1,0 @@
-F:\projects\Consultancy\DestinyPlacements\HelperClass\bin\Debug\HelperClass.dll
-F:\projects\Consultancy\DestinyPlacements\HelperClass\bin\Debug\HelperClass.pdb
-F:\projects\Consultancy\DestinyPlacements\HelperClass\obj\Debug\HelperClass.dll
-F:\projects\Consultancy\DestinyPlacements\HelperClass\obj\Debug\HelperClass.pdb
